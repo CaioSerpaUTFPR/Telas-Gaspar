@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><img
+            src="img/visa.png"
+            class="mb-1"
+            alt="Imagem do logo"
+            style="width: 80px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSite"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSite">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./produto.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./pedido.html">Pedido</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./cliente.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./Financeiro.html"
+                >Financeiro</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="estoque.html">Estoque</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./relatorio.html"
+                >Relatório</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Sair</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="d-flex bd-highlight mb-3">
+        <div class="mr-auto p-2 bd-highlight">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button
+                class="btn btn-outline-secondary mt-5"
+                type="button"
+                id="button-addon1"
+              >
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control mt-5"
+              placeholder="Buscar Usuario"
+              aria-label="Example text with button addon"
+              aria-describedby="button-addon1"
+            />
+          </div>
+        </div>
+        <div class="p-2 bd-highlight">
+          <button type="button" class="btn btn-outline-primary mt-5">
+            Primary
+          </button>
+        </div>
+      </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Valor unidade</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Valor total item</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text mt-3" for="inputGroupSelect01"
+            >Forma de Pagamento</label
+          >
+        </div>
+        <select class="custom-select col-3 mt-3" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="p-2 bd-highlight">
+          <div class="d-flex flex-row bd-highlight mb-1">
+            <div class="p-2 bd-highlight">
+              <h5>TROCO</h5>
+            </div>
+            <div class="p-2 bd-highlight mb-1">
+              <label><h5>R$ 00,00</h5></label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row bd-highlight">
+        <div class="p-2 bd-highlight">
+          <h2>TOTAL</h2>
+        </div>
+        <div class="p-2 bd-highlight">
+          <label><h2>R$ 23,78</h2></label>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-success mr-4 mb-5">
+          Finalizar
+        </button>
+        <button type="button" class="btn btn-outline-danger mb-5">
+          Cancelar
+        </button>
+      </div>
+
+      <!-- container -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
